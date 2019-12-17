@@ -13,7 +13,7 @@
  * NOTE: This example has been completed for you.
 */
 function addNumbers(num1, num2) {
-  return num1 + num2;
+  return num1 + num2
 }
 
 // ⭐️ Example Challenge end ⭐️
@@ -39,8 +39,8 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
-  /* code here */
+function makePersonObject(/* code here */ num1, person, contact) {
+  /* code here */ return { id: num1, name: person, email: contact}
 }
 
 /**
@@ -56,9 +56,9 @@ function makePersonObject(/* code here */) {
  * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
  * the returned value should look like `Hello, my name is Leia`.
 */
-function getName(/* code here */) {
-  /* code here */
-}
+function getName(person) {   
+  return `Hello my name is ${person.name}`
+};
 
 /**
  * ### Challenge `makeSmartPerson`
